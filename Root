@@ -2,6 +2,7 @@ gitignore
 App.tsx
 constants.ts
 index.html
+vercel.json
 index.tsx
 manifest.json
 metadata.json
@@ -17,7 +18,6 @@ sw.js
 tailwind.config.js
 tsconfig.json
 types.ts
-vercel.json
 vite.config.ts
 components/ (Folder containing BusinessCard.tsx, Layout.tsx, etc.)
 services/ (Folder containing geminiService.ts, supabaseService.ts)
