@@ -1,0 +1,24 @@
+gitignore
+App.tsx
+constants.ts
+index.html
+index.tsx
+manifest.json
+metadata.json
+package.json
+postcss.config.js
+README.md
+,LICENSE.md (Legal usage).
+schema.sql
+sw.js
+tailwind.config.js
+tsconfig.json
+types.ts
+vercel.json
+vite.config.ts
+components/ (Folder containing BusinessCard.tsx, Layout.tsx, etc.)
+services/ (Folder containing geminiService.ts, supabaseService.ts)
+views/ (Folder containing Home.tsx, Explore.tsx etc.
+
+
+        
