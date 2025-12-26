@@ -8,7 +8,10 @@ metadata.json
 package.json
 postcss.config.js
 README.md
-,LICENSE.md (Legal usage).
+utils/audioUtils.ts
+pages/KnowledgeBase.tsx
+pages/BusinessProfile.tsx
+LICENSE.md (Legal usage).
 schema.sql
 sw.js
 tailwind.config.js
