@@ -1,27 +1,50 @@
-gitignore
-App.tsx
-constants.ts
-index.html
-vercel.json
-index.tsx
-manifest.json
-metadata.json
-package.json
-postcss.config.js
-README.md
-utils/audioUtils.ts
-pages/KnowledgeBase.tsx
-pages/BusinessProfile.tsx
-LICENSE.md (Legal usage).
-schema.sql
-sw.js
-tailwind.config.js
-tsconfig.json
-types.ts
-vite.config.ts
-components/ (Folder containing BusinessCard.tsx, Layout.tsx, etc.)
-services/ (Folder containing geminiService.ts, supabaseService.ts)
-views/ (Folder containing Home.tsx, Explore.tsx etc.
+/findaba
+│
+├── .gitignore
+│
+├── package.json
+├── README.md
+├── LICENSE.md
+│
+├── index.html
+├── index.tsx
+├── App.tsx
+│
+├── constants.ts
+├── types.ts
+│
+├── manifest.json
+├── metadata.json
+├── sw.js
+│
+├── vercel.json
+├── vite.config.ts
+├── tsconfig.json
+├── postcss.config.js
+├── tailwind.config.js
+│
+├── schema.sql
+│
+├── /utils
+│   └── audioUtils.ts
+│
+├── /services
+│   ├── geminiService.ts
+│   └── supabaseService.ts
+│
+├── /components
+│   ├── BusinessCard.tsx
+│   ├── Layout.tsx
+│   └── (other reusable UI components)
+│
+├── /pages
+│   ├── KnowledgeBase.tsx
+│   └── BusinessProfile.tsx
+│
+└── /views
+    ├── Home.tsx
+    ├── Explore.tsx
+    └── (other route-level views)
 
 
         
