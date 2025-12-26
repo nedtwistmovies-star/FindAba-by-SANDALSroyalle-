@@ -31,9 +31,15 @@
     "node": ">=18"
   }
 }
-git add .
-git commit -m "feat: finalize grounding and production polish"
-git push origin main
+index.html
+check_circle
+components/EnyimbaAI.tsx
+check_circle
+pages/Home.tsx
+check_circle
+pages/BusinessProfile.tsx
+README.md
+index.html
 ├── README.md
 ├── LICENSE.md
 │
@@ -53,40 +59,3 @@ git push origin main
 ├── tsconfig.json
 ├── postcss.config.js
 ├── tailwind.config.js
-│
-├── schema.sql
-│
-├── /utils
-│   └── audioUtils.ts
-│
-├── /services
-│   ├── geminiService.ts
-│   └── supabaseService.ts
-│
-├── /components
-│   ├── BusinessCard.tsx
-│   ├── Layout.tsx
-│   └── (other reusable UI components)
-│
-├── /pages
-│   ├── KnowledgeBase.tsx
-│   └── BusinessProfile.tsx
-│
-└── /views
-    ├── Home.tsx
-    ├── Explore.tsx
-    └── (other route-level views)
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Findaba</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
-        
